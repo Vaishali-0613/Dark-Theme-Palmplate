@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+    }
+    .navbar{
+        background-color: black;
+    }
+    .navbar-brand{
+        border:5px solid red;
+        border-radius: 50%;
+        height: 100px;
+  	width: 100px;
+  	background-color: white;
+ 	margin-left: 50px;
+  	margin-top: 10px;
+    }
+    #img{
+        margin-left: 0.5px;
+        
+    }
+    .navbar-inverse {
+        height: 150px;
+    }
+    .navbar-nav{
+        margin-left: 200px;
+    }
+    .navbar .navbar-nav .nav-link{
+        margin-left: 60px;
+        font-weight: normal;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 0.5px;
+        padding: 0;
+        transition: all-ease-in 0.4s;
+        color: blueviolet;
+        cursor: pointer;
+    }
+    .navbar-nav {
+        margin-top: 25px;
+    }
+    .navbar .navbar-nav .nav-link:hover{
+        background: transparent;
+        color: red;
+    }
+    
+    button.btn{
+    	margin-top: 6px;
+    	margin-left: 270px;
+    	background-color: red;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        height: 60px;
+        width: 130px;
+        border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	border-bottom-left-radius: 10px;
+    	border-bottom-right-radius: 10px;
+    	cursor: pointer;
+    }
+
+.container {
+    margin-left: 20px;
+
+}
+#p1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+#p2{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+button.btn1{
+  margin-left: 10px;
+  margin-bottom: 100%;
+    background-color: red;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        height: 60px;
+        width: 200px;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+.img{
+  margin-top: 305;
+  float: right;
+  margin-right: 18%;
+}
+
+
+
+</style>
+    <title>A Palmplate design</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="camlogo.png" id="img" width="60" height="60"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" >
+         About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Blog</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <button class="btn" type="button">Log in</button>
+      </form>
+    </div>
+</nav>
+<br><br>
+<div class="img">
+<p><img src="mnb.jpeg" id="img1"></p>
+</div>
+<div class="container mt-5">
+
+  <div class="row">
+    <div class="col-sm-7">
+      <p id="p1"> #Get Your 14 Days Free Trail</p>
+     <p id="p2">Manage All Of Your<br> Staff Using A TGB</p> 
+      <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tincidunt eifend odio viverra diam<br>aliquet donee again</p>
+      <p id="p3">4M+ Users</p>
+    </div>
+    
+
+  </div>
+  <button type="button" class="btn1">Learn More</button>
+</body>
+</html>
